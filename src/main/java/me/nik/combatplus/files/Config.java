@@ -90,6 +90,7 @@ public class Config {
 
         DAMAGE_MODIFIERS("damage_modifiers", "", "Damage modifiers properties"),
         DAMAGE_MODIFIERS_OLD_SHARPNESS("damage_modifiers.old_sharpness", true, "Should we bring back 1.8 sharpness damage?"),
+        DAMAGE_MULTIPLIER("damage_modifiers.multiplier", 1, "Multiply final damage by this"),
         DAMAGE_MODIFIERS_DISABLE_SWEEP("damage_modifiers.disable_sweep_attacks", true, "Should we disable sweep attacks?"),
         DAMAGE_MODIFIERS_CUSTOM_TOOL_DAMAGES("damage_modifiers.custom_tool_damages", "", "Custom tool damages properties"),
         DAMAGE_MODIFIERS_CUSTOM_TOOL_DAMAGES_ENABLED("damage_modifiers.custom_tool_damages.enabled", true, "Should we modify damage dealt by tools?"),

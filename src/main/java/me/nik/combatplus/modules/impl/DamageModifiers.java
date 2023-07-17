@@ -206,7 +206,7 @@ public class DamageModifiers extends Module {
                     newDmg = newDmg + newSharpDmg - oldSharpDmg;
                 }
 
-                e.setDamage(newDmg);
+                e.setDamage(newDmg * Config.Setting.DAMAGE_MULTIPLIER.getFloat());
 
                 debug(player, "&6Item: &a" + type + " &6Old Damage: &a" + damageDealt + " &6New Damage: &a" + newDmg);
             }
